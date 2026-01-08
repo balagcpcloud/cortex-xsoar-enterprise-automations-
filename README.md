@@ -5,7 +5,7 @@
 This repository contains **enterprise-grade Palo Alto Cortex XSOAR (Demisto) Python automations** designed to demonstrate how **real Security Operations Centers (SOC)** orchestrate incident response using **Splunk SIEM**, **threat intelligence**, **governance controls**, and **ServiceNow ITSM**.
 
 All automations are written using **native Cortex XSOAR APIs**  
-(`demisto.args()`, `demisto.executeCommand()`) and reflect **production-style SOC logic**, not demo or lab scripts.
+(`demisto.args()`, `demisto.executeCommand()`) 
 
 The scripts in this repository are intended to be executed as **automation tasks inside Cortex XSOAR playbooks**, **after an incident has already been created**.
 
@@ -13,7 +13,7 @@ The scripts in this repository are intended to be executed as **automation tasks
 
 ## **1. Enterprise Security Architecture Context**
 
-In a mature enterprise SOC, responsibilities are clearly separated to ensure **scalability, governance, and auditability**, especially in **regulated and public-sector environments**.
+In SOC, responsibilities are clearly separated to ensure **scalability, governance, and auditability**.
 
 ### **Platform Responsibilities**
 
@@ -35,7 +35,7 @@ In a mature enterprise SOC, responsibilities are clearly separated to ensure **s
 - **SLA and escalation management**
 - **Audit trail and compliance reporting**
 
-This separation of duties supports **regulatory requirements**, **least privilege**, and **controlled response**, which are essential for large enterprises and EU institutions.
+This separation of duties supports **regulatory requirements**, **least privilege**, and **controlled response**
 
 ---
 
@@ -216,7 +216,6 @@ Newly disclosed vulnerabilities are frequently exploited.
 
 ## **6. Governance and Compliance Considerations**
 
-These automations are designed for **regulated enterprise environments**:
 
 - No destructive actions without human approval
 - Clear separation of detection and response
